@@ -1,0 +1,50 @@
+body > section{
+    height: 100vh;
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#pg1{
+    background-color: lavender;
+}
+#pg2{
+    background-color:#9c88ff;
+}
+#pg3{
+    background-color:#6a89cc;
+}
+#pg4{
+    background-color:#2ed573;
+}
+#top{
+    background-color: #EE5A24;
+}
+#top1{
+    background-color: #2f3542;
+}
+#top2{
+    background-color: #e1b12c;
+}
+#top3{
+    background-color: #B33771;
+}
+body > section > div:nth-of-type(1){
+    height: 50px;
+    font-weight: bold;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+    font-size: 25px;
+    padding-left: 10px;
+    color: white;
+}
+
+body > section > div:nth-of-type(2){
+    height: 0px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100vh;
+    
+}
+
