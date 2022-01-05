@@ -52,7 +52,7 @@
 - Mockup : [Click Here](https://www.figma.com/file/axhp8GC5KQrahHbho0qKHx/Untitled?node-id=80%3A637)
 
 <p align="center">
-<a href="https://github.com/LakmalSulochana/Readme-File-Styles">
+<a href="https://github.com/LakmalSulochana/MyProfile/blob/master/README.md">
 Lakmal Sulochana Readme Profile Styles here ! ✌
 </a>
 </p>
