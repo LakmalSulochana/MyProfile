@@ -1,0 +1,28 @@
+*{
+    background-color: black;
+}
+body > header {
+    position: relative;
+    height: 100px;
+    box-shadow: 5px 6px 10px 1px rgba(0, 0, 0, 0.062);
+    z-index: 1;
+    display: flex;
+    justify-content: right;
+
+}
+header > nav {
+    font-size: 30px;
+    font-weight: 70;
+    color: white;
+}
+
+header > nav > ul > li {
+    display: inline;
+    margin-left: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header > nav > ul > li:hover {
+    color: #4bffa5;
+}
