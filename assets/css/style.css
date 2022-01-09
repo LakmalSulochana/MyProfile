@@ -106,7 +106,7 @@ main>section:nth-child(1)>div{
     background-color: white;
 }
 #about{
-    height: 500vh;
+    height: 300vh;
 
 }
 /*
@@ -411,5 +411,120 @@ main>section:nth-child(1)>div{
     left: 339px;
     top: 14px;
     background-color: #4BFFA5;
+}
+#skill>div>h1{
+    position: absolute;
+    width: 1912px;
+    height: 54px;
+    left: 22px;
+    top: 1940px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #A4B0BE;
 
+
+}
+#skill>div>h2{
+    position: absolute;
+    width: 1920px;
+    height: 94px;
+    left: 15px;
+    top: 1952px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#skill>div>h2>span{
+    position: absolute;
+    width: 270px;
+    height: 0px;
+    left: 822px;
+    top: 97px;
+    border: 2px solid #4BFFA5;
+}
+#service>div>h1{
+    position: absolute;
+    width: 1981px;
+    height: 54px;
+    left: -29px;
+    top: 2582px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #A4B0BE;
+}
+#service>div>h2{
+    position: absolute;
+    width: 1920px;
+    height: 94px;
+    left: 14px;
+    top: 2650px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+#service>div>h2>span{
+    position: absolute;
+    width: 270px;
+    height: 0px;
+    left: 823px;
+    top: 99px;
+    border: 2px solid #4BFFA5;
+}
+#service>#box{
+    position: relative;
+    width: 680px;
+    height: 357px;
+    left: 51px;
+    top: -914px;
+    border: 1px solid white;
+}
+#service>#box>img{
+    position: relative;
+    width: 269px;
+    height: 142px;
+    left: 199px;
+    top: 0px;
+}
+#service>#box>h1{
+    position: relative;
+    width: 511px;
+    height: 59px;
+    left: 93px;
+    top: -57px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+#service>#box>h1>span{
+    position: relative;
+    width: 568px;
+    height: 59px;
+    left: -1px;
+    top: -9px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    color: #A4B0BE;
 }
