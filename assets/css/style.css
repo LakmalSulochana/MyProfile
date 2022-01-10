@@ -2,7 +2,8 @@
     background-color: black;
 }
 #home{
-    height: 79vh;
+    height: 80vh;
+    background-color: #9c88ff;
 
 }
 body > header {
@@ -106,7 +107,7 @@ main>section:nth-child(1)>div{
     background-color: white;
 }
 #about{
-    height: 300vh;
+    height: 100vh;
 
 }
 /*
@@ -147,10 +148,10 @@ main>section:nth-child(1)>div{
 }
 #about>div>h1{
     position: relative;
-    width: 1920px;
-    height: 134px;
-    left: 0px;
-    top: -1px;
+    width: 585px;
+    height: 123px;
+    left: 670px;
+    top: -11px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -160,9 +161,9 @@ main>section:nth-child(1)>div{
 }
 #about>div>h2{
     position: relative;
-    width: 1920px;
+    width: 569px;
     height: 100px;
-    left: 0px;
+    left: 675px;
     top: -112px;
     font-family: Roboto;
     font-style: normal;
@@ -177,7 +178,7 @@ main>section:nth-child(1)>div{
     position: absolute;
     width: 270px;
     height: 0px;
-    left: 808px;
+    left: 141px;
     top: 105px;
     border: 3px solid #4BFFA5;
 }
@@ -412,6 +413,10 @@ main>section:nth-child(1)>div{
     top: 14px;
     background-color: #4BFFA5;
 }
+#skill{
+    height: 200vh;
+
+}
 #skill>div>h1{
     position: absolute;
     width: 1912px;
@@ -449,6 +454,10 @@ main>section:nth-child(1)>div{
     left: 822px;
     top: 97px;
     border: 2px solid #4BFFA5;
+}
+#service{
+    height: 70vh;
+    background-color: #e1b12c;
 }
 #service>div>h1{
     position: absolute;
@@ -493,14 +502,14 @@ main>section:nth-child(1)>div{
     width: 680px;
     height: 357px;
     left: 51px;
-    top: -914px;
+    top: -724px;
     border: 1px solid white;
 }
 #service>#box>img{
     position: relative;
-    width: 269px;
+    width: 187px;
     height: 142px;
-    left: 199px;
+    left: 247px;
     top: 0px;
 }
 #service>#box>h1{
@@ -528,3 +537,978 @@ main>section:nth-child(1)>div{
     font-size: 31px;
     color: #A4B0BE;
 }
+#service>#boxF{
+    position: relative;
+    width: 680px;
+    height: 357px;
+    left: 1106px;
+    top: -1088px;
+    border: 1px solid white;
+}
+#service>#boxF>img{
+    position: relative;
+    width: 234px;
+    height: 123px;
+    left: 234px;
+    top: 2px;
+}
+#service>#boxF>h1{
+    position: relative;
+    width: 299px;
+    height: 59px;
+    left: 216px;
+    top: -36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+#service>#boxF>h1>span{
+    position: absolute;
+    width: 487px;
+    height: 70px;
+    left: -113px;
+    top: 66px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    font-size: 31px;
+    color: #A4B0BE;
+}
+#service>#boxWeb{
+    position: relative;
+    width: 680px;
+    height: 363px;
+    left: 51px;
+    top: -1000px;
+    border: 1px solid white
+}
+#service>#boxWeb>img{
+    position: relative;
+    width: 161px;
+    height: 161PX;
+    left: 248px;
+    top: 2px;
+}
+#service>#boxWeb>h1{
+    left: 264px;
+    position: relative;
+    width: 407px;
+    left: 131px;
+    top: -59px;
+    top: -44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+#service>#boxWeb>h2{
+    position: relative;
+    left: 59px;
+    top: -61px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 32px;
+    color: #A4B0BE;
+    line-height: 5vh;
+    width: 561px;
+}
+#service>#boxAd{
+    position: relative;
+    width: 680px;
+    height: 363px;
+    left: 1108px;
+    top: -1368px;
+    border: 1px solid white;
+}
+#service>#boxAd>img{
+    position: relative;
+    width: 161px;
+    height: 161PX;
+    left: 298px;
+    top: 3px;
+}
+#service>#boxAd>h1{
+    position: relative;
+    width: 240px;
+    height: 59px;
+    left: 233px;
+    top: -43px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+#service>#boxAd>h2{
+    position: relative;
+    width: 514px;
+    height: 70px;
+    left: 101px;
+    top: -70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #A4B0BE;
+}
+#service>#boxLr{
+    position: relative;
+    width: 680px;
+    height: 363px;
+    left: 51px;
+    top: -1242px;
+    border: 1px solid white;
+}
+#service>#boxLr>img{
+    position: relative;
+    width: 145px;
+    height: 145PX;
+    left: 265px;
+    top: 3px;
+}
+#service>#boxLr>h1{
+    position: relative;
+    width: 325px;
+    height: 59px;
+    left: 171px;
+    top: -27px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+#service>#boxLr>h2 {
+    position: relative;
+    width: 514px;
+    height: 70px;
+    left: 79px;
+    top: -44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #A4B0BE;
+}
+
+#experience{
+    height: 70vh;
+
+}
+#experience>div>h1{
+    position: relative;
+    width: 573px;
+    left: 656px;
+    top: 76px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #A4B0BE;
+}
+#experience>div>h1>span{
+    position: absolute;
+    width: 562px;
+    height: 94px;
+    left: 5px;
+    top: 49px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#experience>div>h2{
+    position: relative;
+    width: 270px;
+    height: 0px;
+    left: 796px;
+    top: 148px;
+    border: 2px solid #4BFFA5;
+}
+#experience>#yearXp{
+    position: relative;
+    width: 557px;
+    height: 301px;
+    left: 49px;
+    top: 235px;
+    border: 1px solid white;
+}
+#experience>#yearXp>h1 {
+    position: relative;
+    width: 123px;
+    height: 100px;
+    left: 1px;
+    top: -3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 85px;
+    line-height: 100px;
+    color: #4BFFA5;
+}
+#experience>#yearXp>h1>span{
+    position: absolute;
+    width: 53px;
+    height: 40px;
+    left: 116px;
+    top: -50px;
+    color: #4BFFA5;
+}
+#experience>#yearXp>h2 {
+    position: absolute;
+    width: 92px;
+    height: 0px;
+    left: 16px;
+    top: 126px;
+    border: 2px solid #4BFFA5;
+}
+#experience>#yearXp>h3{
+    position: relative;
+    width: 290px;
+    height: 162px;
+    left: 207px;
+    top: -111px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    font-size: 66px;
+    color: #FFFFFF;
+
+}
+#experience>#project{
+    position: relative;
+    width: 557px;
+    height: 301px;
+    left: 662px;
+    top: -68px;
+    border: 1px solid white;
+}
+
+#experience>#project>h1{
+    position: absolute;
+    width: 123px;
+    height: 100px;
+    left: 5px;
+    top: -2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 85px;
+    line-height: 100px;
+    color: #4BFFA5;
+}
+#experience>#project>h1>span{
+    position: absolute;
+    width: 53px;
+    height: 40px;
+    left: 116px;
+    top: -53px;
+    color: #4BFFA5;
+}
+#experience>#project>h2{
+    position: absolute;
+    width: 92px;
+    height: 0px;
+    left: 19px;
+    top: 126px;
+    border: 2px solid #4BFFA5;
+}
+#experience>#project>h3{
+    position: absolute;
+    width: 336px;
+    height: 162px;
+    left: 207px;
+    top: 53px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+#experience>#Assignment{
+    position: relative;
+    width: 557px;
+    height: 301px;
+    left: 1275px;
+    top: -371px;
+    border: 1px solid white;
+}
+#experience>#Assignment>h1 {
+    position: absolute;
+    width: 123px;
+    height: 94px;
+    left: 10px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 85px;
+    line-height: 100px;
+    color: #4BFFA5;
+}
+#experience>#Assignment>h1>span{
+    position: absolute;
+    width: 53px;
+    height: 40px;
+    left: 113px;
+    top: -53px;
+    color: #4BFFA5;
+}
+#experience>#Assignment>h2{
+    position: absolute;
+    width: 92px;
+    height: 0px;
+    left: 29px;
+    top: 126px;
+    border: 2px solid #4BFFA5;
+}
+#experience>#Assignment>h3{
+    position: absolute;
+    width: 336px;
+    height: 162px;
+    left: 194px;
+    top: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+
+}
+#education{
+    height: 125vh;
+}
+
+
+#education>h1{
+    position: relative;
+    width: 1925px;
+    height: 96px;
+    left: -2px;
+    top: 114px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #A4B0BE;
+}
+#education>h2{
+    position: relative;
+    width: 6514px;
+    height: 94px;
+    left: -2297px;
+    top: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#education>h3{
+    position: relative;
+    width: 270px;
+    height: 0px;
+    left: 820px;
+    top: -64px;
+    border: 2px solid #4BFFA5;
+}
+
+
+#education>#pe{
+    position: relative;
+    width: 535px;
+    height: 134px;
+    left: 1289px;
+    top: 584px;
+    background: rgba(53, 59, 72, 0.85);
+    box-shadow: 10px 10px 20px rgb(75 255 165 / 50%);
+}
+#education>#pe>h1  {
+    position: relative;
+    width: 533px;
+    height: 0px;
+    left: 2px;
+    top: 13px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 50px;
+    color: #A8C4E6;
+
+}
+#education>#pe>h2{
+    position: absolute;
+    width: 422px;
+    height: 33px;
+    left: 4px;
+    top: -64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+#education>#pe>#outRound{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -56px;
+    top: -73px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+
+#education>#pe>#inRound{
+    position: relative;
+    width: 27px;
+    height: 26px;
+    left: -49px;
+    top: -127px;
+    background: #4BFFA5;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100%;
+}
+#education>#pe>#inRound>h1{
+    position: relative;
+    width: 256.02px;
+    height: 0px;
+    left: -118px;
+    top: -149px;
+    border: 4px dashed #FFFFFF;
+    transform: rotate(
+            -90deg
+    );
+}
+
+#education>#se{
+    position: relative;
+    width: 535px;
+    height: 134px;
+    left: 1280px;
+    top: 114px;
+    background: rgba(53, 59, 72, 0.85);
+    box-shadow: 10px 10px 20px rgb(75 255 165 / 50%);
+
+}
+#education>#se>h1{
+    position: relative;
+    width: 531px;
+    height: 0px;
+    left: 2px;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 50px;
+    color: #A8C4E6;
+}
+#education>#se>h2{
+    position: absolute;
+    width: 432px;
+    height: 33px;
+    left: 4px;
+    top: -62px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+#education>#se>#outRound1{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -48px;
+    top: -73px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+#education>#se>#inRound1{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: -40px;
+    top: -127px;
+    background: #4BFFA5;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100%;
+}
+#education>#se>#inRound1>h1{
+    position: relative;
+    width: 256.02px;
+    height: 0px;
+    left: -118px;
+    top: -147px;
+    border: 4px dashed #FFFFFF;
+    transform: rotate(-90deg);
+}
+#education>#he{
+    position: relative;
+    width: 535px;
+    height: 134px;
+    left: 1272px;
+    top: -348px;
+    background: rgba(53, 59, 72, 0.85);
+    box-shadow: 10px 10px 20px rgb(75 255 165 / 50%);
+}
+#education>#he>h1{
+    position: relative;
+    width: 533px;
+    height: 0px;
+    left: 2px;
+    top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 50px;
+    color: #A8C4E6;
+}
+#education>#he>h2{
+    position: absolute;
+    width: 422px;
+    height: 33px;
+    left: 7px;
+    top: -75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+#education>#he>#outRound2{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -42px;
+    top: -81px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+
+}
+#education>#he>#inRound2{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: -35px;
+    top: -135px;
+    background: #4BFFA5;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100%;
+}
+#education>#die{
+    position: relative;
+    width: 535px;
+    height: 134px;
+    left: 119px;
+    top: 78px;
+    background: rgba(53, 59, 72, 0.85);
+    box-shadow: 10px 10px 20px rgb(75 255 165 / 50%);
+}
+#education>#die>h1{
+    position: relative;
+    width: 533px;
+    height: 0px;
+    left: 7px;
+    top: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 50px;
+    color: #A8C4E6;
+}
+#education>#die>h2{
+    position: absolute;
+    width: 567px;
+    height: 33px;
+    left: 4px;
+    top: -74px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+#education>#die>#outRound3{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -43px;
+    top: -76px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+
+}
+#education>#die>#inRound3{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: -36px;
+    top: -130px;
+    background: #4BFFA5;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100%;
+
+}
+#education>#die>#inRound3>h1{
+    position: relative;
+    width: 256.02px;
+    height: 0px;
+    left: -118px;
+    top: -145px;
+    border: 4px dashed #FFFFFF;
+    transform: rotate(
+            -90deg
+    );
+
+}
+#education>#software{
+    position: relative;
+    width: 535px;
+    height: 134px;
+    left: 119px;
+    top: -400px;
+    background: rgba(53, 59, 72, 0.85);
+    box-shadow: 10px 10px 20px rgb(75 255 165 / 50%);
+}
+#education>#software>h1{
+    position: relative;
+    width: 533px;
+    height: 0px;
+    left: 10px;
+    top: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 50px;
+    color: #A8C4E6;
+}
+#education>#software>h2{
+    position: absolute;
+    width: 633px;
+    height: 33px;
+    left: 2px;
+    top: -70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+#education>#software>#outRound4{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -46px;
+    top: -68px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+#education>#software>#inRound4{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: -39px;
+    top: -122px;
+    background: #4BFFA5;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100%;
+}
+#myProject{
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+#myProject>h1{
+    position: relative;
+    width: 618px;
+    height: 0px;
+    left: 636px;
+    top: 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #A4B0BE;
+}
+#myProject>h2{
+    position: relative;
+    width: 623px;
+    height: 0px;
+    left: 619px;
+    top: -10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+#myProject>h3{
+    position: relative;
+    width: 270px;
+    height: 0px;
+    left: 782px;
+    top: 24px;
+    border: 3px solid #4BFFA5;
+
+}
+#myProject>#lib{
+    position: relative;
+    width: 539px;
+    height: 314px;
+    left: 38px;
+    top: 65px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#myProject>#lib>img{
+    position: relative;
+    width: 518px;
+    height: 237px;
+    left: 5px;
+    top: 3px;
+}
+#myProject>#lib>h1{
+    position: relative;
+    width: 297px;
+    height: 0px;
+    left: 6px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#myProject>#hotel{
+    position: relative;
+    width: 539px;
+    height: 314px;
+    left: 647px;
+    top: -253px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#myProject>#hotel>img{
+    position: relative;
+    width: 518px;
+    height: 237px;
+    left: 6px;
+    top: 3px;
+}
+#myProject>#hotel>h1{
+    position: relative;
+    width: 297px;
+    height: 0px;
+    left: 7px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#myProject>#parking{
+    position: relative;
+    width: 539px;
+    height: 314px;
+    left: 1270px;
+    top: -565px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#myProject>#parking>img{
+    position: relative;
+    width: 518px;
+    height: 237px;
+    left: 7px;
+    top: 2px;
+}
+#myProject>#parking>h1{
+    position: relative;
+    width: 297px;
+    height: 0px;
+    left: 8px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#myProject>#pos{
+    position: relative;
+    width: 539px;
+    height: 314px;
+    left: 39px;
+    top: -530px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+
+}
+#myProject>#pos>img{
+    position: relative;
+    width: 518px;
+    height: 237px;
+    left: 9px;
+    top: 2px;
+}
+#myProject>#pos>h1{
+    position: relative;
+    width: 297px;
+    height: 0px;
+    left: -81px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#myProject>#web{
+    position: relative;
+    width: 539px;
+    height: 314px;
+    left: 644px;
+    top: -841px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#myProject>#web>img{
+    position: relative;
+    width: 518px;
+    height: 237px;
+    left: 8px;
+    top: 2px;
+}
+#myProject>#web>h1{
+    position: relative;
+    width: 297px;
+    height: 0px;
+    left: -73px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#myProject>#btn{
+    position: relative;
+    width: 245px;
+    height: 67px;
+    left: 1330px;
+    top: -920px;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+#myProject>#btn>h1{
+    position: relative;
+    width: 163px;
+    height: 38px;
+    left: 40px;
+    top: -11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#contact{
+    height: 100vh;
+    background-color: darkmagenta;
+}
+
+/*#about>#findMe{
+    position: relative;
+    display: flex;
+    width: max-content;
+    !* height: 349px; *!
+    width: 375px;
+    justify-content: space-between;
+    z-index: 100;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 80px;
+    top: 1834px;
+    bottom: -1039px;
+    margin: auto;
+    margin-right: 10px;
+}
+#findMe>image{
+    width: 10px;
+    margin: 4px;
+    cursor: pointer;
+}
+#about>#findMe>h1 {
+    position: absolute;
+    width: 178px;
+    height: 0px;
+    left: -229px;
+    top: 3px;
+    border: 3px solid white;
+}*/
