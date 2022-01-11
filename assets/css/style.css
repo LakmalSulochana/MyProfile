@@ -28,8 +28,12 @@ header > nav > ul > li {
     margin-right: 20px;
     cursor: pointer;
 }
+header > nav > ul > li>a{
+    color: white;
+    text-decoration: none;
+}
 
-header > nav > ul > li:hover {
+header > nav > ul > li>a:hover {
     color: #4bffa5;
 }
 main>section:nth-child(1)>div{
@@ -138,6 +142,39 @@ main>section:nth-child(1)>div{
     color: #4bffa5;
 
 }*/
+#cv-btn {
+    position: relative;
+    width: 407px;
+    height: 86px;
+    border: 5px solid #4BFFA5;
+    background-color: transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px 5px rgb(0 0 0);
+    color: #ffffff;
+    line-height: 31px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 714px;
+    margin-top: -763px;
+    cursor: pointer;
+    margin-right: 0px;
+    top: 100px;
+    top: -455px;
+}
+
+
+#cv-btn:hover {
+    background-color: #4BFFA5;
+}
+
+#cv-btn > span {
+    text-transform: capitalize;
+    position: relative;
+    right: 0px;
+    letter-spacing: 1px;
+}
 
 #about>div>img{
     width: 540px;
@@ -275,8 +312,6 @@ main>section:nth-child(1)>div{
 }
 #about>#detail>h2>span{
     position: absolute;
-    width: 317px;
-    height: 56px;
     left: 137px;
     top: 2px;
     font-family: Roboto;
@@ -417,6 +452,99 @@ main>section:nth-child(1)>div{
     height: 200vh;
 
 }
+#slider {
+    height: 332px;
+    width: 1776px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 347px;
+
+}
+
+#slid-con-div {
+    width: 3000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    flex-basis: 3107px;
+    margin-left: 1828px;
+    animation: scroll 10s linear alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    cursor: pointer;
+}
+
+@keyframes scroll {
+    from {
+        margin-left: 1828px;
+    }
+    to {
+        margin-left: -1821px;
+    }
+}
+
+.slid-div {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background: #212428;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.img-div {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid #4BFFA5;
+}
+
+#img_1 {
+    background-image: url("../image/java.png");
+}
+
+#img_2 {
+    background-image: url("../image/pythone.png");
+}
+
+#img_3 {
+    background-image: url("../image/css.png");
+}
+
+#img_4 {
+    background-image: url("../image/lightr.png");
+}
+
+#img_5 {
+    background-image: url("../image/figma.png");
+}
+
+#img_6 {
+    background-image: url("../image/mysql.png");
+}
+
+#img_7 {
+    background-image: url("../image/ps.png");
+}
+
 #skill>div>h1{
     position: absolute;
     width: 1912px;
@@ -1453,7 +1581,7 @@ main>section:nth-child(1)>div{
     text-align: center;
     color: #FFFFFF;
 }
-#myProject>#btn{
+/*#myProject>#btn{
     position: relative;
     width: 245px;
     height: 67px;
@@ -1476,39 +1604,270 @@ main>section:nth-child(1)>div{
     line-height: 37px;
     text-align: center;
     color: #FFFFFF;
-}
-#contact{
-    height: 100vh;
-    background-color: darkmagenta;
+}*/
+#activity_btn {
+    position: relative;
+    top: 18%;
+    right: 111px;
+    left: -89px;
+    margin: auto;
+    width: 100px;
 }
 
-/*#about>#findMe{
+.see_more_btn:hover {
+    color: #cb4eff;
+}
+
+.see_more_btn {
+    width: 264px;
+    height: 72px;
+    border: 5px solid #2ae7d0;
+    background-color: #1ee5ce;
+    border-radius: 68px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px 5px rgb(0 0 0 / 25%);
+    color: white;
+    line-height: 34px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Saira Condensed', sans-serif;
+    margin-top: -972px;
+    margin-left: 627px;
+    top: -1092px;
+    position: relative;
+}
+#contact{
+    height: 115vh;
+    background-color: darkmagenta;
+}
+#contact>h1{
+    position: relative;
+    width: 620px;
+    height: 0px;
+    left: 636px;
+    top: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #A4B0BE;
+
+}
+#contact>h2{
+    position: relative;
+    width: 510px;
+    height: 0px;
+    left: 688px;
+    top: -26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+#contact>h3{
+    position: relative;
+    width: 270px;
+    height: 0px;
+    left: 803px;
+    top: -5px;
+    border: 3px solid #4BFFA5;
+}
+#contact>#info>h1{
+    position: relative;
+    width: 361px;
+    height: 0px;
+    left: 1143px;
+    top: -29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+#contact>#info>p1{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    left: 1149px;
+    top: 11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 41px;
+    color: #747D8C;
+
+}
+#contact>#info{
+    width: 810px;
+    height: 0px;
+}
+#contact>#icn{
+
+    width: 0px;
+    /* left: 443px; */
+    margin-left: 1152px;
+    /* top: 428px; */
+    margin-top: 237px;
+    line-height: 10vh;
+
+
+}
+#contact>#icn>h1{
+    position: relative;
+    width: 463px;
+    height: 0px;
+    left: -89px;
+    top: -301px;
+    border: 2px solid #FFFFFF;
+    transform: rotate(
+            -90deg
+    );
+}
+#contact>#name>h1 {
+    position: relative;
+    width: 120px;
+    height: 53px;
+    left: 1371px;
+    top: -565px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+#contact>#name>h2{
+    position: relative;
+    width: 244px;
+    height: 38px;
+    left: 1371px;
+    top: -601px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #747D8C;
+
+}
+#contact>#location>h1{
+    position: relative;
+    width: 120px;
+    height: 53px;
+    left: 1371px;
+    top: -589px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+#contact>#location>h2{
+    position: relative;
+    width: 379px;
+    height: 0px;
+    left: 1371px;
+    top: -622px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #747D8C;
+}
+#contact>#call>h1{
+    position: relative;
+    width: 162px;
+    height: 53px;
+    left: 1371px;
+    top: -575px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+#contact>#call>h2{
+    position: relative;
+    width: 379px;
+    height: 0px;
+    left: 1371px;
+    top: -610px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #747D8C;
+}
+
+#contact>#email>h1{
+    position: relative;
+    width: 162px;
+    height: 53px;
+    left: 1371px;
+    top: -560px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FFFFFF;
+    margin-right: 0px;
+}
+#contact>#email>h2{
+    position: relative;
+    width: 379px;
+    height: 0px;
+    left: 1371px;
+    top: -596px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #747D8C;
+}
+
+#contact>#moreInfo{
     position: relative;
     display: flex;
     width: max-content;
-    !* height: 349px; *!
+    height: 0px;
     width: 375px;
     justify-content: space-between;
     z-index: 100;
     flex-direction: row;
     align-items: center;
-    position: absolute;
-    right: 80px;
-    top: 1834px;
+    position: relative;
+    right: 0px;
+    top: -518px;
     bottom: -1039px;
     margin: auto;
     margin-right: 10px;
 }
-#findMe>image{
+#contact>#moreInfo>img {
     width: 10px;
     margin: 4px;
     cursor: pointer;
 }
-#about>#findMe>h1 {
+#contact>#moreInfo>h1 {
     position: absolute;
     width: 178px;
     height: 0px;
-    left: -229px;
-    top: 3px;
+    left: -213px;
+    top: -23px;
     border: 3px solid white;
-}*/
+}

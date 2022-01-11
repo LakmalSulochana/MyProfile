@@ -1,0 +1,81 @@
+header {
+    box-shadow: 2px 3px 6px 1px black;
+    position: relative;
+}
+
+header > img {
+    width: 225px;
+    margin: 20px;
+}
+
+header > nav {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    list-style: none;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+header > nav > ul > li {
+    display: inline;
+    padding: 29px 17px 29px 12px;
+}
+
+header > nav > ul > li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+main {
+    position: relative;
+
+}
+
+main > nav {
+    border: 1px solid black;
+    background-color: rgb(76, 20, 130);
+    width: 250px;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    margin: auto;
+    left: 0;
+}
+
+main > nav > ul > li {
+    margin-top: 10px;
+}
+
+main > section {
+    margin-left: 320px;
+}
+
+main > section > div > img {
+    width: 32%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+main > section > p {
+    font-weight: bold;
+}
+
+body > footer {
+    position: relative;
+    height: 60px;
+    background-color: rgb(128, 128, 128);
+    margin-top: -17px;
+    min-width: 735px;
+}
+
+footer > p {
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+}

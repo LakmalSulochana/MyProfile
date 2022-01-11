@@ -1,0 +1,52 @@
+*{
+    background-color: black;
+}
+#assignment{
+    height: 100vh;
+    background-color: #9c88ff;
+}
+main>#assignment>#assign1{
+    position: absolute;
+    width: 539px;
+    height: 314px;
+    left: 19px;
+    top: 228px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#assignment>#assign1>img{
+    position: absolute;
+    width: 518px;
+    height: 237px;
+    left: 8px;
+    top: 2px;
+}
+#assignment>h1 {
+    position: relative;
+    width: 618px;
+    height: 0px;
+    left: 636px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #A4B0BE;
+}
+#assignment>h2{
+    position: relative;
+    width: 623px;
+    height: 0px;
+    left: 619px;
+    top: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+}
