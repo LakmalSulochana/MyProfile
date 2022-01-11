@@ -15,12 +15,26 @@ main>#assignment>#assign1{
     border: 3px solid #4BFFA5;
     box-sizing: border-box;
 }
-#assignment>#assign1>img{
+#assignment>#assign1>a>img{
     position: absolute;
-    width: 518px;
+    width: 525px;
     height: 237px;
-    left: 8px;
-    top: 2px;
+    left: 4px;
+    top: 3px;
+}
+#assignment>#assign1>h1{
+    position: absolute;
+    width: 297px;
+    height: 0px;
+    left: 121px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 32;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
 }
 #assignment>h1 {
     position: relative;
@@ -41,12 +55,136 @@ main>#assignment>#assign1{
     width: 623px;
     height: 0px;
     left: 619px;
-    top: 3px;
+    top: -36px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
     line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#assignment>#assign2{
+    position: absolute;
+    width: 539px;
+    height: 314px;
+    left: 644px;
+    top: 230px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#assignment>#assign2>a>img{
+    position: absolute;
+    width: 525px;
+    height: 237px;
+    left: 4px;
+    top: 3px;
+}
+#assignment>#assign2>h1 {
+    position: absolute;
+    width: 297px;
+    height: 0px;
+    left: 131px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 32;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#assignment>#assign3{
+    position: absolute;
+    width: 539px;
+    height: 314px;
+    left: 1262px;
+    top: 230px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#assignment>#assign3>a>img{
+    position: absolute;
+    width: 525px;
+    height: 237px;
+    left: 4px;
+    top: 3px;
+}
+#assignment>#assign3>h1 {
+    position: absolute;
+    width: 297px;
+    height: 0px;
+    left: 139px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 32;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#assignment>#assign4{
+    position: absolute;
+    width: 539px;
+    height: 314px;
+    left: 17px;
+    top: 617px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#assignment>#assign4>a>img{
+    position: absolute;
+    width: 525px;
+    height: 237px;
+    left: 4px;
+    top: 3px;
+}
+#assignment>#assign4>h1 {
+    position: absolute;
+    width: 297px;
+    height: 0px;
+    left: 100px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 32;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#assignment>#assign5{
+    position: absolute;
+    width: 539px;
+    height: 314px;
+    left: 648px;
+    top: 617px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#assignment>#assign5>a>img{
+    position: absolute;
+    width: 525px;
+    height: 237px;
+    left: 4px;
+    top: 3px;
+}
+#assignment>#assign5>h1 {
+    position: absolute;
+    width: 297px;
+    height: 0px;
+    left: 115px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 32;
+    font-size: 25px;
+    line-height: 29px;
     text-align: center;
     color: #FFFFFF;
 }
