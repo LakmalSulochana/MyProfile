@@ -50,8 +50,55 @@
 
     <div class="row g-3 align-items-center pb-3 justify-content-between">
         <div class="col-12 col-md-5 col-lg-4 col-xl-6">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Add Customer
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">New Customer</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div CLASS="row">
+                                <div class="mb-2 col-12">
+                                    <label class="form-label" for="CustomerId">Customer Id</label>
+                                    <input type="email" class="form-control" id="CustomerId" placeholder="">
+
+                                </div>
+
+                                <div class="mb-2 col-12">
+                                    <label class="form-label" for="CustomerName">Customer Name</label>
+                                    <input type="email" class="form-control" id="CustomerName" placeholder="">
+
+                                </div>
+
+                                <div class="mb-2 col-12">
+                                    <label class="form-label" for="Item Price">Customer Address</label>
+                                    <input type="email" class="form-control" id="Item Price" placeholder="">
+
+                                </div>
+                                <div class="mb-2 col-12">
+                                    <label class="form-label" for="Item Quantity">Salary</label>
+                                    <input type="email" class="form-control" id="Item Quantity" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save</button>
+                            <button type="button" class="btn btn-danger">Renew</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <button type="button" class="btn btn-danger mt-2">Delete Customer</button>
-            <button type="button" class="btn btn-primary mt-2">Add Customer</button>
+       <!-- <button type="button" class="btn btn-primary mt-2">Add Customer</button>-->
             <button type="button" class="btn btn-info mt-2">Clear</button>
             <!--<button type="button" class="btn btn-secondary mt-2"><i class="bi bi-backspace m-2"></i>Clear</button>-->
         </div>
