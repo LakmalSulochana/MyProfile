@@ -22,7 +22,7 @@ $("#updateCustomerBtn").click(function (){
     let customerId =$("#Id").val();
     let customerName =$("#Name").val();
     let customerAddress =$("#Address").val();
-    let customerSalary =$("#CustomerSalary").val();
+    let customerSalary =$("#customerSalary").val();
 
     for (var i=0;i<customerDB.length;i++){
         if (customerDB[i].getCustomerId()==customerId){
