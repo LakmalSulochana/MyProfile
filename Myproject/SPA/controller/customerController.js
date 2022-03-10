@@ -53,4 +53,12 @@ function clearField(){
     $("#customerId,#customerName,#customerAddress,#salary,#Id,#Name,#Address,#customerSalary").val("");
 }
 
+/*enter next field*/
+$("#Id").keydown(function (event) {
+    if (event.key == "Enter") {
+        $("#Name").focus();
+    }
+});
+
+
 
