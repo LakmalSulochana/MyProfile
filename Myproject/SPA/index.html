@@ -193,8 +193,8 @@
                             <div class="modal-body">
                                 <div CLASS="row">
                                     <div class="mb-2 col-12">
-                                        <label class="form-label" for="code">Item code</label>
-                                        <input type="email" class="form-control" id="code" placeholder="">
+                                        <label class="form-label" for="iCode">Item code</label>
+                                        <input type="email" class="form-control" id="iCode" placeholder="">
 
                                     </div>
 
@@ -233,8 +233,8 @@
 
         <div CLASS="row">
             <div class="mb-3 col-6">
-                <label class="form-label" for="Item Id">Item Id</label>
-                <input type="email" class="form-control" id="Item Id" placeholder="">
+                <label class="form-label" for="ItemId">Item Id</label>
+                <input type="email" class="form-control" id="ItemId" placeholder="">
 
             </div>
 
@@ -269,25 +269,8 @@
                             <th scope="col">Quantity</th>
                         </tr>
                         </thead>
-                        <tbody>
-                        <tr>
-                            <th scope="row">I001</th>
-                            <td>cream cracker</td>
-                            <td>150</td>
-                            <td>100</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">I002</th>
-                            <td>nestamolt</td>
-                            <td>450</td>
-                            <td>50</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">I003</th>
-                            <td>lux</td>
-                            <td>60</td>
-                            <td>100</td>
-                        </tr>
+                        <tbody id="tblItem">
+
                         </tbody>
                     </table>
                 </div>
@@ -490,8 +473,12 @@
 
 <script src="assets/JQuery/jquery-3.6.0.min.js"></script>
 <script src="DB/DB.js"></script>
-<script src="controller/customerController.js"></script>
+
 <script src="model/CustomerDTO.js"></script>
+<script src="model/ItemDTO.js"></script>
+<script src="controller/customerController.js"></script>
+<script src="controller/itemController.js"></script>
+
 <!--<script src="assets/JQuery/JQuery.js"></script>-->
 <script src="assets/js/javaScript.js"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>

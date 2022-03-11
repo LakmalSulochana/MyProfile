@@ -15,6 +15,7 @@ $("#btnCustomerAdd").click(function (){
     addDataToTable();
     clearField();
     generateId();
+    deleteCustomer();
 
 });
 
@@ -56,8 +57,6 @@ $("#clearBtn").click(function (){
     clearField();
 });
 
-
-
 function addDataToTable(){
     $("#tblcstmr").empty();
     for (var i of customerDB){
@@ -66,7 +65,7 @@ function addDataToTable(){
         $("#tblcstmr").append(raw);
 
         bindCustomer();
-        /*deleteCustomer();*/
+        deleteCustomer();
     }
 }
 
