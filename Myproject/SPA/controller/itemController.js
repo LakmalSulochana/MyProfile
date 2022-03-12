@@ -16,6 +16,7 @@ $("#btnItemSave").click(function (){
     clearItemField();
     generatItemeId();
     deleteItem();
+    loadAllItemIds()
 
 });
 

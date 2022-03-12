@@ -16,6 +16,7 @@ $("#btnCustomerAdd").click(function (){
     clearField();
     generateId();
     deleteCustomer();
+    loadAllCustomerIds()
 
 });
 
