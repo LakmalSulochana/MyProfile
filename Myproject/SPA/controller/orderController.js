@@ -1,16 +1,24 @@
 generateOrderId();
 setDate();
+var selectedItemId;
+var selectedCustomerId;
 
 //////////////-load customer and item ids /////////////////////////////////////
 
+$("#btnAddCart").click(function (){
+    addToCart();
+});
+
+
+
 $("#cIdCmb").change(function (e){
-    let selectedCustomerId =$('#cIdCmb').find(":selected").text();
+    selectedCustomerId =$('#cIdCmb').find(":selected").text();
     selectedCustomer(selectedCustomerId);
 });
 
 
 $("#itmIdCmb").change(function (e){
-    let selectedItemId =$('#itmIdCmb').find(":selected").text();
+     selectedItemId =$('#itmIdCmb').find(":selected").text();
     selectedItem(selectedItemId);
 });
 
@@ -64,6 +72,89 @@ function selectedItem(ItemId){
         }
     }
 }
+
+
+/*add cart part*/
+var fullTotal = 0;
+function addToCart(){
+        let id = selectedItemId;
+        let iName = $("#itmName").val();
+        let iQtyOnHand = parseInt($("#qtyOnHandO").val());
+        let iPrice = $("#itmPrice").val();
+        let iOrderQTY = parseInt($("#orderQty").val());
+
+        let total = 0;
+    if (iQtyOnHand+1 <= iOrderQTY) {
+        alert("Enter Valid QTY");
+        $("#orderQty").val("");
+        return;
+    }
+    iQtyOnHand = iQtyOnHand - iOrderQTY;
+
+    //updateing qty
+    for (let i = 0; i < itemDB.length; i++) {
+        if (id == itemDB[i].getItemCode()) {
+            itemDB[i].setItemQuantity(iQtyOnHand);
+        }
+    }
+    let newQty = 0;
+    let newTotal= 0;
+
+    if (checkDuplicates(id)==-1) {
+        total = iOrderQTY * iPrice;
+        fullTotal = fullTotal + total;
+        let row =
+            `<tr><td>${id}</td><td>${iName}</td><td>${iPrice}</td><td>${iOrderQTY}<td>${total}</td></tr>`;
+        $("#tblItemCart").append(row);
+        $("#txtTotal").text(fullTotal+" LKR");
+        // alert("23445");
+        clearInputItems();
+
+    }else{
+
+        let rowNo = checkDuplicates(id);
+        newQty = iOrderQTY;
+        let oldQty = parseInt($($('#tblItemCart>tr').eq(rowNo).children(":eq(3)")).text());
+        let oldTotal = parseInt($($('#tblItemCart>tr').eq(rowNo).children(":eq(4)")).text());
+
+        fullTotal = fullTotal-oldTotal;
+        newQty = parseInt(oldQty) + parseInt(newQty) ;
+        newTotal = newQty * iPrice;
+        fullTotal = fullTotal + newTotal;
+
+        //Update row
+        $('#tblItemCart tr').eq(rowNo).children(":eq(3)").text(newQty);
+        $('#tblItemCart tr').eq(rowNo).children(":eq(4)").text(newTotal);
+
+        $("#txtTotal").text(fullTotal+" LKR");
+        // alert("test");
+        clearInputItems();
+    }
+
+}
+function checkDuplicates(itemId) {
+    for (let i = 0; i < $("#tblItemCart > tr").length; i++) {
+        if (itemId == $('#tblItemCart').children().eq(i).children().eq(0).text()) {
+            // alert(i);
+            return i;
+        }
+
+    }
+    return -1;
+}
+
+function clearInputItems() {
+    $("#itmIdCmb").val("");
+    $("#itmName").val("");
+    $("#itmQtyOnHand").val("");
+    $("#itmPrice").val("");
+    $("#orderQty").val("");
+}
+
+/*calculate discount part*/
+
+
+
 ////////////////////////////////////////////////////////////////////////////////////////
 
 //generate order Id
