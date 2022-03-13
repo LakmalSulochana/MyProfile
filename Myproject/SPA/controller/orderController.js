@@ -8,7 +8,19 @@ var selectedCustomerId;
 $("#btnAddCart").click(function (){
     addToCart();
 });
+$("#dis").keyup(function(event){
+    discountCal();
+});
 
+$("#cash").keyup(function (event) {
+
+    let subTotal = parseInt($("#lblSubTotal").text());
+    let cash = parseInt($("#cash").val());
+    let balance = cash - subTotal;
+    $("#balanceCash").val(balance);
+
+
+});
 
 
 $("#cIdCmb").change(function (e){
@@ -152,6 +164,21 @@ function clearInputItems() {
 }
 
 /*calculate discount part*/
+
+function discountCal() {
+
+    var discount =0;
+    var discounted_price=0;
+    var tempDiscount=0;
+
+    discount = parseInt($("#dis").val());
+    tempDiscount = 100-discount;
+    discounted_price = (tempDiscount*fullTotal)/100;
+    console.log(typeof discounted_price);
+    $("#lblSubTotal").text(discounted_price +" LKR");
+
+
+}
 
 
 
