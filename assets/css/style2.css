@@ -187,3 +187,165 @@ main>#assignment>#assign1{
     text-align: center;
     color: #FFFFFF;
 }
+#assignment>#assign5{
+    position: absolute;
+    width: 539px;
+    height: 314px;
+    left: 648px;
+    top: 617px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#assignment>#assign5>a>img{
+    position: absolute;
+    width: 525px;
+    height: 237px;
+    left: 4px;
+    top: 3px;
+}
+#assignment>#assign5>h1 {
+    position: absolute;
+    width: 297px;
+    height: 0px;
+    left: 115px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 32;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+#assignment>#assign6{
+    position: absolute;
+    width: 539px;
+    height: 314px;
+    left: 1274px;
+    top: 617px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#assignment>#assign6>a>img{
+    position: absolute;
+    width: 529px;
+    height: 231px;
+    left: 1px;
+    top: -2px;
+}
+#assignment>#assign6>h1 {
+    position: absolute;
+    width: 297px;
+    height: 0px;
+    left: 115px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 32;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#assignment>#assign7{
+    position: absolute;
+    width: 539px;
+    height: 314px;
+    left: 16px;
+    top: 1011px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#assignment>#assign7>a>img{
+    position: absolute;
+    width: 529px;
+    height: 231px;
+    left: 1px;
+    top: -2px;
+}
+#assignment>#assign7>h1 {
+    position: absolute;
+    width: 297px;
+    height: 0px;
+    left: 115px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 32;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#assignment>#assign8{
+    position: absolute;
+    width: 539px;
+    height: 314px;
+    left: 649px;
+    top: 1011px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+
+}
+#assignment>#assign8>a>img{
+    position: absolute;
+    width: 529px;
+    height: 231px;
+    left: 1px;
+    top: -2px;
+}
+#assignment>#assign8>h1 {
+    position: absolute;
+    width: 297px;
+    height: 0px;
+    left: 115px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 32;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#assignment>#assign9{
+    position: absolute;
+    width: 539px;
+    height: 316px;
+    left: 1274px;
+    top: 1010px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+
+}
+#assignment>#assign9>a>img{
+    position: absolute;
+    width: 529px;
+    height: 231px;
+    left: 1px;
+    top: -2px;
+}
+#assignment>#assign9>h1 {
+    position: absolute;
+    width: 297px;
+    height: 0px;
+    left: 115px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 32;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
