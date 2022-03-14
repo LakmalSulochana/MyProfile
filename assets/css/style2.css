@@ -349,3 +349,36 @@ main>#assignment>#assign1{
     text-align: center;
     color: #FFFFFF;
 }
+
+
+#assignment>#assignQue{
+    position: absolute;
+    width: 539px;
+    height: 296px;
+    left: 16px;
+    top: 1393px;
+    background: #353B48;
+    border: 3px solid #4BFFA5;
+    box-sizing: border-box;
+}
+#assignment>#assignQue>a>img{
+    position: absolute;
+    width: 529px;
+    height: 231px;
+    left: 1px;
+    top: -2px;
+}
+#assignment>#assignQue>h1 {
+    position: absolute;
+    width: 297px;
+    height: 0px;
+    left: 115px;
+    top: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 32;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
